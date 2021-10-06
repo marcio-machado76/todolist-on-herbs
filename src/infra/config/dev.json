@@ -6,7 +6,7 @@
   "database": {
     "client": "pg",
     "connection": {
-      "host": "127.0.0.1",
+      "host": "todolist.clumyskftn3d.us-east-1.rds.amazonaws.com",
       "user": "postgres",
       "password": "postgres",
       "database": "todolist_on_herbs_db"

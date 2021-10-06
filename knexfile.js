@@ -1,12 +1,12 @@
 module.exports = {
 
   development: {
-    client: 'postgresql',
+    client: 'pg',
     connection: {
       database: 'todolist_on_herbs_db',
       user: 'postgres',
       password: 'postgres',
-      host: 'localhost',
+      host: 'todolist.clumyskftn3d.us-east-1.rds.amazonaws.com',
       port: 5432
     },
     pool: {
